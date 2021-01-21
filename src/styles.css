@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+div{
+    display: flex;
+}
+
 .mainBody{
     width: 100%;
     height: 100%;
@@ -12,11 +16,13 @@
     color: #24292e;
     background-color: #ffffff;
     border: 2px solid black;
+    transition: 0.25s ease-in;
 }
 
 .dark-mode{
     color: #ffffff;
     background-color: #24292e;
+    transition: 0.25s ease-in;
 }
 
 

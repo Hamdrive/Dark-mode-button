@@ -7,8 +7,9 @@ function App() {
   const [theme, setTheme] = useState(false)
 
   return (
+    //Using React Hooks
     <div className={theme ? "light-mode" : "dark-mode"}>
-      <main>
+      <main className="mainBody">
         <h1>Hello {theme ? "Light" : "Dark"} World!</h1>
         <br />
       </main>
